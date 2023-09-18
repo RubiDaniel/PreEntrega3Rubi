@@ -6,12 +6,13 @@ h1 {
   background-color: #f28f16;
   text-align: center;
   height: 60px;
-  width: 400px;
   font-size: 40px;
   line-height: 100px;
   border: 5px solid white;
   font-family: sans-serif;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -292,11 +293,12 @@ textarea {
   color: #f28f16;
   background-color: #2c313c;
   text-align: center;
-  height: 100px;
-  width: 1120px;
+  height: 200px;
   font-size: 40px;
   line-height: 100px;
   border: 5px solid #f28f16;
   font-family: sans-serif;
   text-transform: uppercase;
-}/*# sourceMappingURL=style.css.map */*/
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
